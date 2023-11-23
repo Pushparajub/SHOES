@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5em;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.5em;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            width: 33%;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            transition: transform 0.3s ease-in-out;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My E-Commerce Website</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Featured Products</h2>
+        <div class="product-container">
+            <div class="product">
+                <a href="home1.html">
+                    <img src="shoe1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Brand new orginal nike.</p>
+                    <p>Price: ₹300</p>
+                </a>
+            </div>
+            <div class="product">
+                <a href="home2.html">
+                    <img src="shoe2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Brand new orginal nike.</p>
+                    <p>Price: ₹300</p>
+                </a>
+            </div>
+               <div class="product">
+                <a href="home3.html">
+                    <img src="shoe3.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Brand new orginal nike.</p>
+                    <p>Price: ₹300</p>
+                </a>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My E-Commerce Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
